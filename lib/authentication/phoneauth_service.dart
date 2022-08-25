@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/authentication/otp_screen.dart';
+import 'package:flutter_application_2/flutter_catalog/pages/firstPage.dart';
 import 'package:flutter_application_2/screen/location_screen.dart';
 
 class PhoneAuthService {
@@ -22,7 +23,7 @@ class PhoneAuthService {
 
     if (document.length > 0) {
       //user data exists, so skip firestore
-      Navigator.pushReplacementNamed(context, LocationScreen.id);
+      Navigator.pushReplacementNamed(context, FirstPage.id);
     } else {
       return users.doc(user!.uid).set({
         'uid': user!.uid,
@@ -31,7 +32,7 @@ class PhoneAuthService {
       }).then((value) //after add data to firebase, user will go to next screen
           {
         // if you push replacement name or push replacement, then you cant go back to previous screen
-        Navigator.pushReplacementNamed(context, LocationScreen.id);
+        Navigator.pushReplacementNamed(context, FirstPage.id);
       }).catchError((error) => print('Failed to add user: $error'));
     }
   }

@@ -28,35 +28,7 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
     });
   }
 
-  /*showAlertDialog(BuildContext context) {
-    AlertDialog alert = AlertDialog(
-      content: Row(
-        children: [
-          CircularProgressIndicator(),
-          SizedBox(
-            width: 8,
-          ),
-          Text('Please Wait'),
-        ],
-      ),
-    ); 
-
-    showDialog(
-        barrierDismissible:
-            false, // background me tap karne se affect nahi padega and circular progress indicator nahi hatega
-        context: context,
-        builder: (BuildContext context) {
-          return alert;
-        });
-  } */
-
   PhoneAuthService _service = PhoneAuthService();
-
-  /* @override
-  void dispose() {
-    showAlertDialog(context); //it will close alert dialog, please wait..
-    super.dispose();
-  } */
 
   @override
   Widget build(BuildContext context) {
@@ -140,11 +112,7 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
                       autofocus: true,
                       keyboardType: TextInputType.phone,
                       controller: phoneNumberController,
-                      /* onChanged: (value) {
-                        setState(() {
-                          counterText = value.length.toString();
-                        });
-                      }, */
+
                       decoration: InputDecoration(
                           // counterText: '$counterText/10',
                           labelText: 'Number',

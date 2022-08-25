@@ -1,6 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/authentication/authentication.dart';
+import 'package:flutter_application_2/authentication/email_auth.dart';
+import 'package:flutter_application_2/flutter_catalog/pages/firstPage.dart';
+import 'package:flutter_application_2/image%20Upload/imgUpload.dart';
+import 'package:flutter_application_2/screen/category_list.dart';
 import 'package:flutter_application_2/screen/home.dart';
 import 'package:flutter_application_2/screen/location_screen.dart';
 import 'package:flutter_application_2/screen/login.dart';
@@ -17,12 +21,6 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    /*return FutureBuilder(
-      future: Future.delayed(Duration(seconds: 4)),
-      builder: (context, AsyncSnapshot snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return MaterialApp(home: Splash());
-        } else { */
     return MaterialApp(
       //home: AuthUi(),
       initialRoute: Splash.id,
@@ -31,17 +29,12 @@ class MyApp extends StatelessWidget {
         Splash.id: (context) => Splash(),
         AuthUi.id: (context) => AuthUi(),
         PhoneAuthScreen.id: (context) => PhoneAuthScreen(),
+        FirstPage.id: (context) => FirstPage(),
         LocationScreen.id: (context) => LocationScreen(),
+        EmailAuthScreen.id: (context) => EmailAuthScreen(),
+        ImageUpload.id: (context) => ImageUpload(),
+        CategoryListScreen.id: (context) => CategoryListScreen(),
       },
-
-      /*Scaffold(
-              body: Center(
-                child: Text('App loaded'),
-              ),
-            ),*/
     );
-    //}
-    //},
-    //);
   }
 }

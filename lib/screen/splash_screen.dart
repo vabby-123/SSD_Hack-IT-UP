@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/flutter_catalog/pages/firstPage.dart';
 import 'package:flutter_application_2/screen/location_screen.dart';
 import 'package:flutter_application_2/screen/login.dart';
 
@@ -27,7 +28,7 @@ class _SplashState extends State<Splash> {
         } else {
           //Signed In
 
-          Navigator.pushReplacementNamed(context, LocationScreen.id);
+          Navigator.pushReplacementNamed(context, FirstPage.id);
         }
       });
     });
@@ -38,10 +39,8 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     const colorizeColors = [
-      Colors.purple,
-      Colors.blue,
-      Colors.yellow,
-      Colors.red,
+      Color.fromARGB(255, 247, 149, 38),
+      Color.fromARGB(255, 33, 187, 33),
     ];
     const colorizeTextStyle = TextStyle(
       fontSize: 50.0,
@@ -49,27 +48,33 @@ class _SplashState extends State<Splash> {
     );
 
     return Scaffold(
-      backgroundColor: Colors.orange,
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
           children: [
+            SizedBox(
+              height: 200,
+            ),
+            Image.asset(
+              'assets/images/hack.png',
+              width: 700,
+              height: 400,
+            ),
             SizedBox(
               height: 50,
             ),
-            Image.asset(
-              'assets/images/sathil1.png',
-            ),
             SizedBox(
-              height: 10,
-            ),
-            SizedBox(
-              width: 250.0,
+              width: 300.0,
+              height: 50,
               child: AnimatedTextKit(
                 animatedTexts: [
                   ColorizeAnimatedText(
-                    'Buy or Sell',
-                    textStyle: colorizeTextStyle,
+                    'Swayam Sahayata Digital',
+                    textStyle: const TextStyle(
+                      fontSize: 26.0,
+                      fontWeight: FontWeight.bold,
+                    ),
                     colors: colorizeColors,
                   ),
                 ],

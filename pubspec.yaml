@@ -43,9 +43,30 @@ dependencies:
   sn_progress_dialog: ^1.0.8
   cloud_firestore: ^3.2.1
   location: ^4.4.0
-  csc_picker: ^0.2.5
+  csc_picker: ^0.2.6
   google_sign_in: ^5.0.0
   geocoding: ^2.0.4
+  email_validator: '^2.1.16'
+  firebase_storage: "^10.0.2"
+  path: ^1.8.0
+  image_picker: ^0.8.4
+  flutter_phone_direct_caller: ^2.1.1
+  carousel_slider: ^4.1.1
+  carousel_indicator: ^1.0.6
+  smooth_page_indicator: ^1.0.0+2
+  velocity_x: ^3.5.1
+  flutter_linkify: ^5.0.2
+  url_launcher: ^6.1.5
+  google_fonts: ^2.1.1
+  upi_india: ^3.0.1
+  flutter_neumorphic: ^3.2.0
+  external_app_launcher: ^3.1.0
+  
+  
+  
+ 
+  
+
 
 dev_dependencies:
   flutter_test:
@@ -70,7 +91,13 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/sathil1.png
-    - assets/images/tfc.jpg
+    - assets/images/log.png
+    - assets/images/with.png
+
+    - assets/images/
+    - assets/File/catalog.json
+    - assets/File/sample_payment_configuration.json
+    - lib/E Wallet/icons/
 
   # To add assets to your application, add an assets section, like this:
   

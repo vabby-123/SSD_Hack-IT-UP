@@ -1,0 +1,84 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": " HANDMADE SCULPTURES ",
+        "desc": "Slight irregularity in design and colour is the sign of a handcrafted piece",
+        "price": 180,
+        "color": "#33505a",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDWdwYqmly-A9C9LneTf5vDqqKudLUhDE6Q&usqp=CAUg"
+      },
+      {
+        "id": 2,
+        "name": "Earthen Water Pot ",
+        "desc": "Earthen pots or matkas have been used to store and cool water since time immemorial",
+        "price": 630,
+        "color": "",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDWdwYqmly-A9C9LneTf5vDqqKudLUhDE6Q&usqp=CAUg"
+      },
+      {
+        "id": 3,
+        "name": "EARTHEN NIGHT LAMP",
+        "desc": "A nightlight is a small light fixture, usually electrical, placed for comfort or convenience in dark areas ",
+        "price": 480,
+        "color": "#e0bfae",
+        "image": "https://www.hcms.org.in/uploads/shg-product/thumb/1577167541.jpg"
+      },
+      {
+        "id": 4,
+        "name": "HANDMADE TRAY AND CONTAINER ",
+        "desc": " A chabhari is a traditional tray or container used to serve food to family members and guests. In the past, binna was used by family members as a traditional seat.",
+        "price": 165,
+        "color": "",
+        "image": "https://ruralmarketing.in/wp-content/uploads/2022/06/Enterprising-rural-women-through-traditional-crafts-768x495.jpg"
+      },
+      {
+        "id": 5,
+        "name": " Dhoop Batti",
+        "desc": " This dhoop sticks ingredients are desi cow dung, desi cow ghee, coconut oil, rice and bhiseni camphor .",
+        "price": 99,
+        "color": "",
+        "image": "https://www.hcms.org.in/uploads/shg-product/thumb/1577702643.jpg"
+      },
+      {
+        "id": 6,
+        "name": "HANDMADE EARINGS",
+        "desc": "Flaunt off your style statement in functions with this pair of drop earrings made in paddy by self help women's group",
+        "price": 165,
+        "color": "",
+        "image": "https://www.indiameetsindia.org/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/img_20171128_142531_1.jpg"
+      },
+      {
+        "id": 7,
+        "name": "CLAY FRIDGE PAINTING",
+        "desc": "Made from terracotta clay, the MittiCool refrigerator is ideal for storing water, milk, fruits and vegetables.",
+        "price": 7000,
+        "color": "",
+        "image": "https://www.hcms.org.in/uploads/shg-product/thumb/1577705175.png"
+      },
+      {
+        "id": 8,
+        "name": "HANDMADE JHALAR",
+        "desc": "",
+        "price": 750,
+        "color": "",
+        "image": "https://www.aridhima.com/formationofshg/shgmart5.jpg"
+      },
+      {
+        "id": 9,
+        "name": "HANDMADE VASE",
+        "desc": "",
+        "price": 1200,
+        "color": "",
+        "image": "http://www.jharcraft.in/application/assets/2019/09/HC-7207-A-300x300.jpg"
+      },
+      {
+        "id": 10,
+        "name": "HANDMADE BAGS",
+        "desc": "Enrich your look with this Handloom weaved Jhola bag made by Numa SHG, this is made from the best quality handwoven handloom material finish.",
+        "price": 250,
+        "color": "",
+        "image": "https://www.hcms.org.in/uploads/shg-product/thumb/1577702863.png"
+      }
+    ]
+  }
