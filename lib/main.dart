@@ -4,18 +4,22 @@ import 'package:flutter_application_2/authentication/authentication.dart';
 import 'package:flutter_application_2/authentication/email_auth.dart';
 import 'package:flutter_application_2/flutter_catalog/pages/firstPage.dart';
 import 'package:flutter_application_2/image%20Upload/imgUpload.dart';
+import 'package:flutter_application_2/screen/cat_provider.dart';
 import 'package:flutter_application_2/screen/category_list.dart';
 import 'package:flutter_application_2/screen/home.dart';
 import 'package:flutter_application_2/screen/location_screen.dart';
 import 'package:flutter_application_2/screen/login.dart';
 import 'package:flutter_application_2/screen/splash_screen.dart';
+import 'package:provider/provider.dart';
 
 import 'authentication/phone_auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {

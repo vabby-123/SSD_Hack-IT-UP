@@ -4,6 +4,7 @@ import 'package:flutter_application_2/flutter_catalog/pages/Buy-Sell-Rent.dart';
 import 'package:flutter_application_2/flutter_catalog/pages/home_page.dart';
 import 'package:flutter_application_2/screen/home.dart';
 import 'package:flutter_application_2/screen/location_screen.dart';
+import 'package:flutter_application_2/screen/scanner.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -50,6 +51,10 @@ class _FirstPageState extends State<FirstPage> {
               height: 16,
             ),
             schemeCard(),
+            SizedBox(
+              height: 16,
+            ),
+            schemeCard2(),
             SizedBox(
               height: 16,
             ),
@@ -237,6 +242,32 @@ class _FirstPageState extends State<FirstPage> {
                       context,
                       MaterialPageRoute(
                           builder: (context) => GovernmentSchemes()));
+                },
+              ),
+              height: 240,
+              fit: BoxFit.cover,
+            ),
+          ],
+        ),
+      );
+  Widget schemeCard2() => Card(
+        elevation: 16,
+        shadowColor: Colors.black,
+        clipBehavior: Clip.antiAlias,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(24),
+        ),
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            Ink.image(
+              image: NetworkImage(
+                'https://firebasestorage.googleapis.com/v0/b/e-commerce-78ec0.appspot.com/o/firstPage%2FGroup%202%20(2).png?alt=media&token=8b144a60-ad13-4cb5-84b6-385c1d5d3796',
+              ),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Scanner()));
                 },
               ),
               height: 240,
