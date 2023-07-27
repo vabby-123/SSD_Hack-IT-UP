@@ -1,6 +1,6 @@
-# flutter_application_2
+# Swayam Sahayata Digital
 
-A new Flutter project.
+A Flutter project or mobile application which aims to help Self Help Groups and has various functionality like Online/Offline payment support, multi-tier marketplace based on location for used items, notifications for important government schemes, OCR image to text classification and many more in just one single mobile application.
 
 ## Getting Started
 
