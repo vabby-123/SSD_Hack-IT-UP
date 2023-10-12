@@ -21,12 +21,8 @@ For comprehensive guidance on Flutter development, you can explore the [online d
 
 We welcome contributions from the community to make Swayam Sahayata Digital even better. If you'd like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-If you have any questions or need assistance, feel free to contact us at [your@email.com](mailto:your@email.com).
+If you have any questions or need assistance, feel free to contact us at [vaibhavpratap630@gmail.com](mailto:vaibhavpratap630@gmail.com).
 
 Thank you for your interest in Swayam Sahayata Digital!
